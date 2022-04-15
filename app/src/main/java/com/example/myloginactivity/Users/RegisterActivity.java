@@ -2,6 +2,7 @@ package com.example.myloginactivity.Users;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -9,7 +10,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.myloginactivity.Dao.MyDao;
+import com.example.myloginactivity.Dao.UserInfo;
 import com.example.myloginactivity.R;
 
 public class RegisterActivity extends AppCompatActivity implements View.OnClickListener{
@@ -21,6 +22,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     String name=null;
     String password=null;
     String password_confirm=null;
+    UserInfo users;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,20 +45,19 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
             case R.id.btn_confirm:
                 if(isEmptyForText()){
                     if(isSamePassword()){
-                        //将注册信息存入数据库
-                        MyDao dao=new MyDao(this);
-                        dao.add(name,password);
-                        Toast.makeText(this,"注册成功",Toast.LENGTH_LONG).show();
-                        //注册成功，返回登录页面
-                        startActivity(new Intent(this,LoginActivity.class));
-
+                        register();
                     }
 
                 }
                 break;
         }
     }
-
+public void register(){
+    users = new UserInfo(name,password);
+    users.save();
+    //注册成功，返回登录页面
+    startActivity(new Intent(this,LoginActivity.class));
+}
     //判断输入内容是否为空
     public boolean isEmptyForText(){
         name=etUsername.getText().toString().trim();

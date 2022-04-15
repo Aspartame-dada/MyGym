@@ -7,6 +7,36 @@
         <entry key="..\:/Users/11359/AndroidStudioProjects/MyLoginActivity/app/src/main/res/layout/activity_login.xml" value="0.2453125" />
         <entry key="..\:/Users/11359/AndroidStudioProjects/MyLoginActivity/app/src/main/res/layout/activity_main.xml" value="0.2453125" />
         <entry key="..\:/Users/11359/AndroidStudioProjects/MyLoginActivity/app/src/main/res/layout/activity_register.xml" value="0.2453125" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/drawable/btn_btn.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/drawable/btn_btn2.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/drawable/btn_style.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/drawable/button_style.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/drawable/card_style.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/drawable/ic_apparatus.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/drawable/ic_goods.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/drawable/ic_lost.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/drawable/ic_teach.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/drawable/ic_vip.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout-w1240dp/capture.xml" value="0.1" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/activity_content.xml" value="0.1" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/activity_goods_add.xml" value="0.13949275362318841" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/activity_goods_content.xml" value="0.264" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/activity_lost_content.xml" value="0.14266304347826086" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/activity_vip_content.xml" value="0.14266304347826086" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/button_item.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/capture.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/fragment_blank.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/fragment_home.xml" value="0.2078125" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/fragment_notifications.xml" value="0.16979166666666667" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/goods_item_layout.xml" value="0.4" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/lost_item_layout.xml" value="0.264" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/teach_info_item_layout.xml" value="0.1" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/vip_item_layout.xml" value="0.4" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
       </map>
     </option>
   </component>
