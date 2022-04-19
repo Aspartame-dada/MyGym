@@ -19,6 +19,7 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
+import com.example.myloginactivity.PieChartWithline;
 import com.example.myloginactivity.R;
 import com.example.myloginactivity.zxing.android.CaptureActivity;
 
@@ -50,6 +51,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         imageButton = (ImageButton) view.findViewById(R.id.imageButton);
         imageButton2 = (ImageButton) view.findViewById(R.id.imageButton2);
         imageButton.setOnClickListener(this);
+        imageButton2.setOnClickListener(this);
     }
 
     @Override
@@ -62,6 +64,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
                 } else {
                     goScan();
                 }
+                break;
+            case R.id.imageButton2:
+                startActivity(new Intent(getContext(), PieChartWithline.class));
                 break;
         }
     }

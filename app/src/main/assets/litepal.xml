@@ -15,7 +15,7 @@
     	例如：
     	<version value="1" />
     -->
-    <version value="1" />
+    <version value="2" />
 
     <!--
     	在带有映射标记的列表中定义模型，LitePal将为每个映射类创建表。
@@ -34,6 +34,8 @@
         <mapping class="com.example.myloginactivity.Dao.TeachInfo" />
         <mapping class="com.example.myloginactivity.Dao.UserInfo" />
         <mapping class="com.example.myloginactivity.Dao.Vip" />
+        <mapping class="com.example.myloginactivity.Dao.Foods" />
+
 
 
     </list>

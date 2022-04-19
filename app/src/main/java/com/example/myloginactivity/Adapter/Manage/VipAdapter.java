@@ -14,8 +14,6 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.myloginactivity.Adapter.ButtonAdapter;
-import com.example.myloginactivity.Dao.Goods;
 import com.example.myloginactivity.Dao.Vip;
 import com.example.myloginactivity.MainActivity;
 import com.example.myloginactivity.R;
@@ -43,7 +41,7 @@ public class VipAdapter extends RecyclerView.Adapter<VipAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Vip vip = data.get(position);
-        holder.tv_vip_id.setText(String.valueOf(vip.getId()));
+        holder.tv_vip_id.setText(String.valueOf(vip.getVip_id()));
         holder.tv_vip_name.setText(vip.getVip_name());
         holder.tv_vip_birthday.setText(vip.getVip_birthday());
         holder.layout.setOnLongClickListener(new View.OnLongClickListener() {
@@ -63,7 +61,7 @@ public class VipAdapter extends RecyclerView.Adapter<VipAdapter.ViewHolder> {
                         .setPositiveButton("确定", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                LitePal.deleteAll(Vip.class,"id=?", String.valueOf(vip.getId()));
+                                LitePal.deleteAll(Vip.class,"id=?", String.valueOf(vip.getVip_id()));
                                 context.startActivity(new Intent(context, MainActivity.class));
                             }
                         }).create();             //创建AlertDialog对象

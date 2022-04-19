@@ -10,8 +10,12 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.myloginactivity.Dao.Foods;
 import com.example.myloginactivity.Dao.UserInfo;
 import com.example.myloginactivity.R;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class RegisterActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -78,4 +82,5 @@ public void register(){
         }
         return false;
     }
+
 }

@@ -4,7 +4,7 @@ import org.litepal.crud.LitePalSupport;
 
 public class Apparatus  extends LitePalSupport {
     String apparatus_name;
-    int id;
+    int appatatus_id;
     String info;
 
     public Apparatus() {
@@ -12,7 +12,7 @@ public class Apparatus  extends LitePalSupport {
 
     public Apparatus(String apparatus_name, int id, String info) {
         this.apparatus_name = apparatus_name;
-        this.id = id;
+        this.appatatus_id = id;
         this.info = info;
     }
 
@@ -24,12 +24,12 @@ public class Apparatus  extends LitePalSupport {
         this.apparatus_name = apparatus_name;
     }
 
-    public int getId() {
-        return id;
+    public int getAppatatus_id() {
+        return appatatus_id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setAppatatus_id(int appatatus_id) {
+        this.appatatus_id = appatatus_id;
     }
 
     public String getInfo() {

@@ -23,17 +23,20 @@
         <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/activity_goods_content.xml" value="0.264" />
         <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/activity_lost_content.xml" value="0.14266304347826086" />
-        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/activity_pie_chart_withline.xml" value="0.136" />
         <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/activity_register.xml" value="0.264" />
         <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/activity_vip_content.xml" value="0.14266304347826086" />
         <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/button_item.xml" value="0.22864583333333333" />
         <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/capture.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/food_item_layout.xml" value="0.1933876811594203" />
         <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/fragment_blank.xml" value="0.22864583333333333" />
         <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
-        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/fragment_home.xml" value="0.2078125" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/fragment_home.xml" value="0.152" />
         <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/fragment_notifications.xml" value="0.16979166666666667" />
         <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/goods_item_layout.xml" value="0.4" />
         <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/lost_item_layout.xml" value="0.264" />
+        <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/show_item.xml" value="0.16979166666666667" />
         <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/teach_info_item_layout.xml" value="0.1" />
         <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/layout/vip_item_layout.xml" value="0.4" />
         <entry key="..\:/Users/11359/Desktop/MyGym/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />

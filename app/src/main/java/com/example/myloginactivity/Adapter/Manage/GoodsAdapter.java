@@ -46,7 +46,7 @@ public class GoodsAdapter  extends RecyclerView.Adapter<GoodsAdapter.ViewHolder>
     @Override
     public void onBindViewHolder(@NonNull GoodsAdapter.ViewHolder holder, int position) {
         Goods goods =data.get(position);
-        holder.goods_id.setText(String.valueOf(goods.getGoods_id()));
+        holder.goods_id.setText(String.valueOf(goods.getGoods_name()));
         holder.tv_goods_buying_price.setText(String.valueOf( goods.getGoods_buying_price()));
         holder.tv_goods_selling_price.setText(String.valueOf(goods.getGoods_selling_price()));
         holder.tv_goods_in_stocks.setText(String.valueOf(goods.getGoods_in_stocks()));

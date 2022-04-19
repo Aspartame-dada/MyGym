@@ -3,7 +3,7 @@ package com.example.myloginactivity.Dao;
 import org.litepal.crud.LitePalSupport;
 
 public class Vip extends LitePalSupport {
-    int id;
+    int vip_id;
     String vip_name;
     String vip_status;
     String data;
@@ -13,19 +13,19 @@ public class Vip extends LitePalSupport {
     }
 
     public Vip(int id, String vip_name, String vip_status, String data, String vip_birthday) {
-        this.id = id;
+        this.vip_id = id;
         this.vip_name = vip_name;
         this.vip_status = vip_status;
         this.data = data;
         this.vip_birthday = vip_birthday;
     }
 
-    public int getId() {
-        return id;
+    public int getVip_id() {
+        return vip_id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setVip_id(int vip_id) {
+        this.vip_id = vip_id;
     }
 
     public String getVip_name() {

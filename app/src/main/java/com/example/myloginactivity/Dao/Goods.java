@@ -4,18 +4,38 @@ import org.litepal.crud.LitePalSupport;
 
 public class Goods extends LitePalSupport {
     int goods_id;
+    String goods_name;
     double goods_buying_price;
     double goods_selling_price;
     int goods_in_stocks;
+    int goods_sum;
 
     public Goods() {
     }
 
-    public Goods(int goods_id, double goods_buying_price, double goods_selling_price, int goods_in_stocks) {
+    public String getGoods_name() {
+        return goods_name;
+    }
+
+    public void setGoods_name(String goods_name) {
+        this.goods_name = goods_name;
+    }
+
+    public int getGoods_sum() {
+        return goods_sum;
+    }
+
+    public void setGoods_sum(int goods_sum) {
+        this.goods_sum = goods_sum;
+    }
+
+    public Goods(int goods_id, String goods_name, double goods_buying_price, double goods_selling_price, int goods_in_stocks, int goods_sum) {
         this.goods_id = goods_id;
+        this.goods_name = goods_name;
         this.goods_buying_price = goods_buying_price;
         this.goods_selling_price = goods_selling_price;
         this.goods_in_stocks = goods_in_stocks;
+        this.goods_sum = goods_sum;
     }
 
     public int getGoods_id() {
